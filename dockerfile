@@ -16,7 +16,7 @@ RUN mvn clean package
 
 FROM openjdk:11-jre-slim
 
-ARG JAR_NAME="contrat-app-docker-jenkins-integration"
+ARG JAR_NAME="products-app-0.0.1-SNAPSHOT"
 
 WORKDIR /usr/src/app
 
