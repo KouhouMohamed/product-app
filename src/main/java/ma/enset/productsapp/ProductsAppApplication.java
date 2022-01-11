@@ -21,6 +21,7 @@ public class ProductsAppApplication {
             productRepository.save(new Product(null,"Smartphone",1600,34));
             productRepository.save(new Product(null,"devops",1600,34));
             productRepository.save(new Product(null,"big data",1600,34));
+            productRepository.save(new Product(null,"Réseau",200000,34));
         };
     }
 
